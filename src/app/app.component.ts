@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My test';
+
+  states = [
+    {name: 'Arizona', abbrev: 'AZ'},
+    {name: 'California', abbrev: 'CA'},
+    {name: 'Colorado', abbrev: 'CO'},
+    {name: 'New York', abbrev: 'NY'},
+    {name: 'Pennsylvania', abbrev: 'PA'},
+  ];
+
 }
